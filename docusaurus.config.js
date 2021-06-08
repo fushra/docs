@@ -22,11 +22,16 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'meml-basics/install',
           position: 'left',
           label: 'Tutorials',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          type: 'doc',
+          docId: 'reference/index',
+          position: 'left',
+          label: 'Reference',
+        },
         {
           href: 'https://github.com/fushra/docs',
           label: 'GitHub',
@@ -66,10 +71,6 @@ module.exports = {
         {
           title: 'More',
           items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
             {
               label: 'Fushra GitHub',
               href: 'https://github.com/fushra',
@@ -95,12 +96,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: `${docsRepo}/edit/master/website/`,
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: `${docsRepo}/edit/master/website/blog/`,
+          editUrl: `${docsRepo}/edit/master/website/docs/`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -7,14 +7,17 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: hsl(203, 23%, 40%);
+  --ifm-color-primary: hsl(203, 23%, 50%);
   --ifm-color-primary-dark: hsl(203, 23%, 30%);
   --ifm-color-primary-darker: hsl(203, 23%, 20%);
   --ifm-color-primary-darkest: hsl(203, 23%, 10%);
-  --ifm-color-primary-light: hsl(203, 23%, 50%);
-  --ifm-color-primary-lighter: hsl(203, 23%, 65%);
+  --ifm-color-primary-light: hsl(203, 23%, 60%);
+  --ifm-color-primary-lighter: hsl(203, 23%, 70%);
   --ifm-color-primary-lightest: hsl(203, 23%, 80%);
+
   --ifm-code-font-size: 95%;
+
+  --ifm-font-color-base-inverse: white;
 }
 
 .docusaurus-highlight-code-line {
@@ -24,6 +27,6 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-.container {
-  color: white;
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage- {
+  border-right: none !important;
 }
