@@ -44,12 +44,7 @@ module.exports = {
       links: [
         {
           title: 'Docs',
-          items: [
-            {
-              label: 'Tutorials',
-              to: '/docs/intro',
-            },
-          ],
+          items: [],
         },
         {
           title: 'Community',
