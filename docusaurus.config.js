@@ -4,14 +4,14 @@ const docsRepo = 'https://github.com/fushra/docs'
 
 module.exports = {
   title: 'Fushra Docs',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'General documentation for Fushra products',
+  url: 'https://docs.fushra.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'fushra', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Fushra docs',
